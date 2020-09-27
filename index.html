@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Customize Duniya</title>
+	<!--Custom Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Fonts Link -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="nav-bar">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" width="125px"></a>
+				</div>
+				<nav>
+					<ul id="menuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="account.html">Login | Register</a></li>
+					</ul>
+				</nav>
+				<a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+				<img src="images/menu.png" class="menu-icon" onclick="toggle()">
+			</div>
+
+			<div class="row">
+				<div class="col-2">
+					<h1>When The Expectation <br> Is More Than Noney!</h1>
+					<p>A perfect venture for all your customized, personalized <br>and corporate gifting requirements.</p>
+					<a href="" class="btn">Check Now  &#8594;</a>
+				</div>
+				<div class="col-2">
+					<img src="images/rsz_hand.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Category -->
+
+	<div class="category">
+		<div class="cat-container">
+			<div class="row">
+				<div class="col-3">
+					<img src="images/category-1.jpg">
+				</div>
+				<div class="col-3">
+					<img src="images/category-2.jpg">
+				</div>
+				<div class="col-3">
+					<img src="images/category-3.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Products -->
+
+	<div class="pro-container">
+		<h2 class="title">Featured Products</h2>
+		<div class="row">
+			<div class="col-4">
+				<a href="details.html"><img src="images/product-1.jpg">
+				<h4>Red Printed T-Shirt</h4></a>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 799</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-2.jpg">
+				<h4>Sports Shoes HRX edition</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+				</div>
+				<p>₹ 1499</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-3.jpg">
+				<h4>Men's Semi-Cargo Pants</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 999</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-4.jpg">
+				<h4>Plane Blue T-Shirt</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 699</p>
+			</div>
+		</div>
+
+		<!-- Latest Products -->
+
+		<h2 class="title">Latest Products</h2>
+
+		<div class="row">
+			<div class="col-4">
+				<img src="images/product-5.jpg">
+				<h4>Gray Sports Shoes</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 499</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-6.jpg">
+				<h4>Printed Puma T-Shirt</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 1499</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-7.jpg">
+				<h4>Socks HRX Edition</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 459</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-8.jpg">
+				<h4>Fossil Unisex Wrist Watch</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 6999</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<img src="images/product-9.jpg">
+				<h4>Roadster Men's Watch</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 459</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-10.jpg">
+				<h4>HRX Sports Shoes</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 2499</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-11.jpg">
+				<h4>HRX Sneakers</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 899</p>
+			</div>
+			<div class="col-4">
+				<img src="images/product-12.jpg">
+				<h4>Black Men's Track</h4>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<p>₹ 499</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Offer Section -->
+
+	<div class="offer">
+		<div class="pro-container">
+			<div class="row">
+				<div class="col-2">
+					<img src="images/exclusive.png" class="offer-img">
+				</div>
+				<div class="col-2">
+					<p>Exclusively Available on Customize Duniya</p>
+					<h1>Smart Band 4</h1>
+					<small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full touch display with adjustable brightness.</small><br>
+					<a href="" class="btn">Buy Now &#8594;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- Testimonials -->
+
+    <div class="testimonials">
+    	<div class="pro-container">
+    		<div class="row">
+    			<div class="col-3">
+    				<i class="fa fa-quote-left"></i>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco</p>
+    				<i class="fa fa-quote-right"></i>
+    				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<img src="images/user-1.png">
+				<h3>Sean Paul</h3>
+    			</div>
+    			<div class="col-3">
+    				<i class="fa fa-quote-left"></i>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco</p>
+    				<i class="fa fa-quote-right"></i>
+    				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+				</div>
+				<img src="images/user-2.png">
+				<h3>Chris Hemsworth</h3>
+    			</div>
+    			<div class="col-3">
+    				<i class="fa fa-quote-left"></i>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco</p>
+    				<i class="fa fa-quote-right"></i>
+    				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<img src="images/user-3.png">
+				<h3>Natasha Romanaff</h3>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!-- Brands -->
+
+    <div class="brands">
+    	<div class="pro-container">
+    		<div class="row">
+    			<div class="col-5">
+    				<img src="images/logo-godrej.png">
+    			</div>
+    			<div class="col-5">
+    				<img src="images/logo-coca-cola.png">
+    			</div>
+    			<div class="col-5">
+    				<img src="images/logo-oppo.png">
+    			</div>
+    			<div class="col-5">
+    				<img src="images/logo-paypal.png">
+    			</div>
+    			<div class="col-5">
+    				<img src="images/logo-philips.png">
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+    	<div class="container">
+    		<div class="row">
+    			<div class="footer-col-1">
+    				<h3>Download Our App</h3>
+    				<p>Download for Android and ios</p>
+    				<div class="app-logo">
+    					<img src="images/play-store.png">
+    					<img src="images/app-store.png">
+    				</div>
+    			</div>
+    			<div class="footer-col-2">
+    				<img src="images/logo.png">
+    				<p>Our purpose is to Sustainably make the pleasure and benefits of Gifts accessible to all.</p>
+    			</div>
+    			<div class="footer-col-3">
+    				<h3>Useful Links</h3>
+    				<ul>
+    					<li>Coupons</li>
+    					<li>Blog Post</li>
+    					<li>Return Policy</li>
+    					<li>Join Affiliate</li>
+    				</ul>
+    			</div>
+    			<div class="footer-col-4">
+    				<h3>Follow Us</h3>
+    				<ul>
+    					<li>Facebook</li>
+    					<li>Twitter</li>
+    					<li>Instagram</li>
+    					<li>Linkedin</li>
+    				</ul>
+    			</div>
+    		</div>
+    		<hr>
+    		<p class="copyright">© 2020 - 69 Software Solutions</p>
+    	</div>
+    </div>
+
+    <!-- JS Link -->
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
